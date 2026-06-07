@@ -23,6 +23,6 @@ def gif_to_png(the_gif, folder_name):
         print(f"Finished! {index} frames saved in the folder: '{folder_name}'")
 
 # run the function (change the gif name)
-gif_file = "gif_name_here.gif" 
+gif_file = "example.gif" 
 output_folder = "output_frames"
 gif_to_png(gif_file, output_folder)
